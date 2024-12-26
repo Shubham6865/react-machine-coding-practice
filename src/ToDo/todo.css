@@ -1,0 +1,8 @@
+.centerText {
+  display: flex;
+  justify-content: center;
+}
+.listDisplay {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
