@@ -1,7 +1,11 @@
-.Counter {
+.counter__main {
+  /* background: green; */
+  height: 100%;
+}
+.counter {
   display: flex;
   justify-content: center;
   align-items: center;
-
   gap: 5rem;
+  margin-top: 0.5rem;
 }

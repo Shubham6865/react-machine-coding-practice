@@ -30,7 +30,7 @@ const Todo = () => {
   return (
     <div>
 
-      <h1>Todo App</h1>
+      <h1 className="title">Todo App</h1>
 
       <div>
         <input type="text" placeholder="Enter Title" value={taskTitle} onChange={(e) => setTaskTitle(e.target.value)} />
