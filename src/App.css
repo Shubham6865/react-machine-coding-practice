@@ -27,7 +27,7 @@
 }
 
 .componentContainer {
-  background: blueviolet;
+  /* background: blueviolet; */
   padding: 20px;
   justify-items: center;
   height: 80vh;
