@@ -3,12 +3,13 @@ import Counter from './Counter/Counter';
 import ToDo from './ToDo/ToDo';
 import './app.css';
 import Modal from './Modal/Modal';
+import SearchFilter from './SearchFilter/SearchFilter';
 
 function App() {
 
   const [activeTask, setActiveTask] = useState('Counter');
 
-  const taskBtn = ['Counter', 'ToDo', 'Modal'];
+  const taskBtn = ['Counter', 'ToDo', 'Modal', 'SearchFilter'];
 
   const url = `https://github.com/Shubham6865/react-machine-coding-practice/blob/main/src/${activeTask}/${activeTask}.jsx`
 
@@ -35,6 +36,7 @@ function App() {
           {activeTask === 'Counter' && <Counter />}
           {activeTask === 'ToDo' && <ToDo />}
           {activeTask === 'Modal' && <Modal />}
+          {activeTask === 'SearchFilter' && <SearchFilter />}
         </div>
         <div className="githublink ">
           <a target='_blank' className='taskbtn' href={url} >{`Navigate to ${activeTask} Code`}</a>
