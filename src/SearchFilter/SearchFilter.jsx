@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import "./SearchFilter.css"; // Import the CSS file
+import "./SearchFilter.css";
 
 const SearchFilter = () => {
   const items = [
@@ -19,6 +19,7 @@ const SearchFilter = () => {
   // const filteredItems = items.filter((item) =>
   //   item.toLowerCase().includes(query.toLowerCase())
   // );
+
 
   const filteredItems = useMemo(() => {
     return items.filter((item) =>
@@ -52,3 +53,8 @@ const SearchFilter = () => {
 };
 
 export default SearchFilter;
+
+
+
+
+
