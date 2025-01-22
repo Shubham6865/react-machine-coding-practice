@@ -1,0 +1,17 @@
+.pagination_container {
+  width: 100vw;
+  background: rgb(247, 156, 103);
+  border: 1px solid red;
+  display: flex;
+  gap: 10px;
+  /* padding: 5px; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+button {
+  padding: 5px;
+  border: 1px solid black;
+  background: transparent;
+}
